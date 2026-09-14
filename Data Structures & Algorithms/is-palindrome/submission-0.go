@@ -1,4 +1,5 @@
 func isPalindrome(s string) bool {
+	//TC: O(n) SC: O(1)
     l, r:= 0, len(s)-1;
 
 	for l<r{
